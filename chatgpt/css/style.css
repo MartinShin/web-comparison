@@ -1,0 +1,39 @@
+/* Reset & Base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Noto Sans KR', sans-serif; line-height: 1.6; color: #333; }
+a { text-decoration: none; color: inherit; }
+ul { list-style: none; }
+
+/* Navigation */
+.main-nav { background: rgba(255,255,255,0.9); position: fixed; width: 100%; top: 0; z-index: 1000; }
+.main-nav ul { display: flex; justify-content: center; padding: 1rem; }
+.main-nav li { margin: 0 1rem; }
+.main-nav a { font-weight: bold; color: #222; }
+.main-nav a.active { color: #0077cc; }
+
+/* Hero Section */
+.hero {
+    background: url("../../img/hero_banner.png") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-content { text-align: center; background: rgba(0,0,0,0.5); padding: 2rem; border-radius: 12px; }
+.hero-content h1 { font-size: 3rem; color: #fff; margin-bottom: 1rem; }
+.hero-content p { color: #eee; margin: 0.5rem 0; }
+.btn { display: inline-block; margin-top: 1rem; padding: 0.75rem 1.5rem; background: #0077cc; color: #fff; border-radius: 6px; }
+
+/* Content Sections */
+.content { max-width: 800px; margin: 8rem auto 2rem; padding: 0 1rem; }
+.content h1, .content h2 { margin-bottom: 1rem; color: #0077cc; }
+.content p { margin-bottom: 1rem; }
+
+/* Schedule Table */
+.schedule { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+.schedule th, .schedule td { padding: 0.75rem; border: 1px solid #ddd; text-align: left; }
+.schedule th { background: #f5f5f5; }
+
+/* Footer */
+footer { text-align: center; padding: 2rem 0; background: #fafafa; margin-top: 4rem; }
+footer p { margin: 0.5rem 0; }

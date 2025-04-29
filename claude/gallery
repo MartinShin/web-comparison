@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리 - AI 커넥트 서울: 루프탑 네트워킹 나이트</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="sub-hero">
+        <nav class="navbar scrolled">
+            <div class="logo">
+                <h1>AI 커넥트 서울</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">홈</a></li>
+                <li><a href="about.html">소개</a></li>
+                <li><a href="program.html">프로그램</a></li>
+                <li><a href="speakers.html">연사진</a></li>
+                <li><a href="gallery.html" class="active">갤러리</a></li>
+                <li><a href="contact.html" class="cta-button">등록하기</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+        
+        <div class="sub-hero-content">
+            <div class="container">
+                <h1>갤러리</h1>
+                <p>AI 커넥트 서울의 특별한 순간들</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="gallery-intro">
+        <div class="container">
+            <div class="section-header">
+                <h2>커넥션의 순간들</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="intro-text">
+                <p>AI 커넥트 서울에서 펼쳐지는 다양한 네트워킹과 교류의 순간들을 갤러리를 통해 미리 만나보세요. 서울의 아름다운 야경을 배경으로 펼쳐지는 특별한 경험의 단면들을 담았습니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-grid">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">모든 사진</button>
+                <button class="filter-btn" data-filter="venue">장소</button>
+                <button class="filter-btn" data-filter="networking">네트워킹</button>
+                <button class="filter-btn" data-filter="presentations">발표</button>
+                <button class="filter-btn" data-filter="atmosphere">분위기</button>
+            </div>
+            
+            <div class="gallery-container">
+                <div class="gallery-item venue fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="루프탑 전경">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>루프탑 전경</h3>
+                                <p>서울의 야경이 펼쳐지는 특별한 루프탑 공간</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item networking fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="네트워킹 순간">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>의미 있는 대화</h3>
+                                <p>참가자들 간의, 지적이고 편안한 네트워킹</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item presentations fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="라이트닝 톡">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>AI 라이트닝 스파크</h3>
+                                <p>영감을 주는 짧고 강렬한 발표 세션</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item atmosphere fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="분위기">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>편안한 분위기</h3>
+                                <p>은은한 조명과 음악이 어우러진 루프탑의 밤</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item venue fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="세팅">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>공간 세팅</h3>
+                                <p>자연스러운 교류를 위한 공간 배치</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item networking fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="토픽 코너">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>토픽 코너</h3>
+                                <p>관심사별로 모여 깊이 있는 대화를 나누는 공간</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item presentations fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="발표자">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>영감을 주는 연사</h3>
+                                <p>다양한 분야의 전문가들의 통찰력 있는 발표</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item atmosphere fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="드링크">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>AI 테마 음료</h3>
+                                <p>AI 컨셉에서 영감을 받은 특별한 음료들</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item networking fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="그룹 토론">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>그룹 토론</h3>
+                                <p>다양한 관점이 어우러지는 활발한 토론의 장</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item venue fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="야경">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>서울의 야경</h3>
+                                <p>행사의 배경이 되는 아름다운 서울의 밤</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item atmosphere fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="분위기 소품">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>디테일</h3>
+                                <p>행사의 분위기를 더하는 세심한 디테일들</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-item presentations fade-in">
+                    <div class="gallery-image">
+                        <img src="/api/placeholder/600/400" alt="QA 세션">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>Q&A 순간</h3>
+                                <p>발표 후 이어지는 활발한 질문과 대화</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-video">
+        <div class="container">
+            <div class="section-header">
+                <h2>행사 하이라이트 영상</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="video-container fade-in">
+                <div class="video-frame">
+                    <img src="/api/placeholder/800/450" alt="영상 썸네일" class="video-thumbnail">
+                    <div class="play-button">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="video-description">
+                    <h3>AI 커넥트 서울: 네트워킹의 밤</h3>
+                    <p>루프탑에서 펼쳐지는 특별한 AI 네트워킹 이벤트의 주요 순간들을 담은 하이라이트 영상입니다. 행사의 분위기와 참가자들의 생생한 경험을 미리 만나보세요.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>참가자 후기</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p>"기존의 네트워킹 이벤트와는 확실히 달랐습니다. 형식적인 명함 교환이 아닌, 정말 의미 있는 대화와 인사이트를 얻을 수 있었습니다. 루프탑의 분위기도 정말 좋았어요."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/80/80" alt="참가자 이미지" class="author-image">
+                        <div class="author-info">
+                            <h4>김민준</h4>
+                            <p>소프트웨어 엔지니어</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p>"AI 라이트닝 스파크 세션이 특히 인상적이었습니다. 짧은 시간 안에 다양한 아이디어와 프로젝트를 접할 수 있었고, 그것이 자연스럽게 심층적인 대화로 이어졌습니다."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/80/80" alt="참가자 이미지" class="author-image">
+                        <div class="author-info">
+                            <h4>이서현</h4>
+                            <p>데이터 사이언티스트</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in">
+                    <div class="testimonial-content">
+                        <p>"편안하면서도 지적인 분위기가 정말 좋았습니다. 평소에는 접하기 어려운 다양한 분야의 전문가들과 자연스럽게 교류할 수 있는 기회였습니다. 다음 행사도 꼭 참석하고 싶어요."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="/api/placeholder/80/80" alt="참가자 이미지" class="author-image">
+                        <div class="author-info">
+                            <h4>박지훈</h4>
+                            <p>AI 스타트업 창업자</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-cta">
+        <div class="container">
+            <div class="cta-content fade-in">
+                <h2>다음 행사에 함께하세요</h2>
+                <p>2025년 5월 9일, 서울의 야경과 함께 펼쳐질 특별한 네트워킹의 밤을 놓치지 마세요.</p>
+                <a href="contact.html" class="btn btn-primary">지금 등록하기</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>AI 커넥트 서울</h2>
+                    <p>루프탑 네트워킹 나이트</p>
+                </div>
+                <div class="footer-links">
+                    <h3>빠른 링크</h3>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="program.html">프로그램</a></li>
+                        <li><a href="speakers.html">연사진</a></li>
+                        <li><a href="gallery.html">갤러리</a></li>
+                        <li><a href="contact.html">등록하기</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>연락처</h3>
+                    <p><i class="fas fa-envelope"></i> info@aiconnectseoul.kr</p>
+                    <p><i class="fas fa-phone"></i> 010-OOOO-OOOO</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 AI 커넥트 서울. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
